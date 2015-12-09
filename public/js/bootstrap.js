@@ -83,42 +83,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-class ViewController: UIViewController {
-    
-    var intNumber : Int = 0
-    var doubleDecimals : Double = 0.23
-    var doubleFloat : Float = -233.3
-    var stringName : String = "iLiQ"
-    var isBoolean : Bool = false
-
-    @IBOutlet weak var txtZipCode: UITextField!
-    @IBOutlet weak var lblLabel: UILabel!
-    @IBOutlet weak var btntitle: UIButton!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        changeTextAtStart()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func btntitleAction(sender: UIButton){
-        changeText()
-    }
-    
-    func changeText(){
-        lblLabel.text = "Your online liquor store"
-        btntitle.setTitle("iLiQ", forState: UIControlState.Normal)
-    }
-    func changeTextAtStart(){
-        lblLabel.text = "iLiQ"
-        btntitle.setTitle("The Liquor App", forState: UIControlState.Normal)
-    }
-}
-
-
 
 
 +function ($) {
