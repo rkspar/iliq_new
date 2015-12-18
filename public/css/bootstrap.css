@@ -940,7 +940,7 @@ th {
 .glyphicon-erase:before {
   content: "\e221";
 }
-.glyphicon-hourglass:before {
+.glyphicon-hour:before {
   content: "\231b";
 }
 .glyphicon-lamp:before {
@@ -1178,7 +1178,10 @@ hr {
 }
 h1,
 h2,
-h3,
+
+
+
+,
 h4,
 h5,
 h6,
