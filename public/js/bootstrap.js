@@ -16,6 +16,14 @@ if (typeof jQuery === 'undefined') {
   }
 }(jQuery);
 
+// Formstone Background - Video Background Settings
+$("header.video").background({
+    source: {
+        poster: "public/img/beer.png",
+        mp4: "public/mp4/beer.mp4"
+    }
+});
+
 /* ========================================================================
  * Bootstrap: transition.js v3.3.4
  * http://getbootstrap.com/javascript/#transitions
